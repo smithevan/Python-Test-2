@@ -9,6 +9,9 @@ def like (user, new_object):
 
 def set_object(object_value):
     object_value.insert(0, int(input('Input Value of Liked Object: ')))
+    x = 1
+    print ('The Value of Object ', x, ' is:', object_value[0])
+    x += 1
     return object_value
 
 new_object = [0]
