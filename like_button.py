@@ -8,11 +8,11 @@ def like (user, new_object):
     return user_like_average
 
 def set_object(object_value):
-    object_value.insert(0, int(input('Input Number:')))
+    object_value.insert(0, int(input('Input Value of Liked Object: ')))
     return object_value
 
 new_object = [0]
 while new_object[0] != 10000:
     set_object(new_object)
-    #new_object.insert(0, int(input('Input Number:')))
     print (like(user1_profile, new_object))
+    print (user1_profile)
