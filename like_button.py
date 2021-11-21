@@ -14,6 +14,11 @@ def set_object(object_value):
     x += 1
     return object_value
 
+def create_liked_object():
+    new_object = [0]
+    return new_object
+    
+
 new_object = [0]
 while new_object[0] != 10000:
     set_object(new_object)
