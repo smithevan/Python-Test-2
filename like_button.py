@@ -11,13 +11,13 @@ def set_object(object_value):
     object_value.insert(0, int(input('Input Value of Liked Object: ')))
     x = 1
     print ('The Value of Object ', x, ' is:', object_value[0])
-    x += 1
+    x += 2
     return object_value
 
 def create_liked_object():
     new_object = [0]
     return new_object
-    
+
 
 new_object = [0]
 while new_object[0] != 10000:
