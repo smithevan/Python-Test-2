@@ -4,6 +4,12 @@ from platform import node
 
 nodes = {}
 
+
+def check_lead_node(nodes):
+    lead_node_key = max(nodes, key=nodes.get)
+    print(lead_node_key)
+    print('asdafsdasdf')
+
 def create_node (nodes, node_number):
     print('Create new node (y/n/q)?  ')
     node_creation = input()
@@ -17,9 +23,12 @@ def create_node (nodes, node_number):
     elif node_creation == 'n':
         print('Node not created.')
         return True
+    elif node_creation == 'c':
+        check_lead_node(nodes)
+        return True
     elif node_creation == 'q': 
         return False
-    
+
 
 
 def main():
