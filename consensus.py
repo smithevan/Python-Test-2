@@ -12,7 +12,13 @@ def create_node ():
         print(node_weight)
     elif node_creation == 'n':
         print('Node not created.')
+    elif node_creation == 'q':
+        print('Process terminated')
 
-create_node()
+def main():
+    create_node()
+
+main()
+
 
 
