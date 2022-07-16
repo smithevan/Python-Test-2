@@ -7,8 +7,7 @@ nodes = {}
 
 def check_lead_node(nodes):
     lead_node_key = max(nodes, key=nodes.get)
-    print(lead_node_key)
-    print('asdafsdasdf')
+    print('Node ' + str(lead_node_key) + ' is the lead node.')
 
 def create_node (nodes, node_number):
     print('Create new node (y/n/q)?  ')
