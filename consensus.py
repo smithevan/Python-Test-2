@@ -12,7 +12,7 @@ def create_node (nodes, node_number):
     if node_creation == 'y':
         node_number += 1
         node_weight = random.randint(0, 999)
-        #nodes.append(node_weight)
+        nodes.update({node_number: node_weight})
         print('Node ' + str(node_number) + ' created.')
         print('Node weight: ' + str(node_weight))
     elif node_creation == 'n':
