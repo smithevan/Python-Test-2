@@ -19,3 +19,4 @@ You can also use unordered lists in various ways:
 - Stick with it 
 - Help organize 
 
+You can also make lists that inclue `code snippets`. This can be very advantageous if you want to `SELECT * FROM table`. 
