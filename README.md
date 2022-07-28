@@ -8,8 +8,8 @@ There are many different ways in which you can use mark down. As one person said
 > Markdown is the language of a thousand faces.  
 
 There are many ways in which you can write:  
-1. On your own.  
-2. As a team. 
-3. As an editor. 
+1. On your own
+2. As a team
+3. As an editor
 
 Each has method has its own advantage. 
