@@ -1,3 +1,4 @@
+##area of a string
 import math
 sample_string = "j"
 
