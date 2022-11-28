@@ -12,7 +12,7 @@ There are many ways in which you can write:
 2. As a team
 3. As an editor
 
-Each has method has its own advantage. 
+Each method has its own advantage. 
 
 You can also use unordered lists in various ways: 
 - Make a list
